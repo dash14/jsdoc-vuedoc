@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccqgithub/jsdoc-vuedoc.git"
+    "url": "git+https://github.com/dash14/jsdoc-vuedoc.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ccqgithub/jsdoc-vuedoc/issues"
   },
-  "homepage": "https://github.com/ccqgithub/jsdoc-vuedoc#readme",
+  "homepage": "https://github.com/dash14/jsdoc-vuedoc#readme",
   "dependencies": {
     "@vuedoc/md": "^1.4.1",
     "vue-template-compiler": "^2.5.17"

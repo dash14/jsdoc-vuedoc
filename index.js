@@ -65,7 +65,11 @@ exports.handlers = {
       && e.comment.indexOf(tag) != -1
     ) {
       let md = (markdownCodes[e.filename]) || '';
-      e.comment = e.comment.replace(tag, md);
+      let lines = md.split(/\n/);
+      const i = lines.findIndex((line) => line.startsWith("#"));
+      if (i > 0) lines.splice(0, i);
+      lines = lines.map((line) => ` * ${line}`);
+      e.comment = e.comment.replace(tag, "\n" + lines.join("\n"));
     }
   }
 }

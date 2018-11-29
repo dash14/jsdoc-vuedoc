@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dash14/jsdoc-vuedoc#readme",
   "dependencies": {
-    "@vuedoc/md": "^1.5.0",
+    "@vuedoc/md": "git+https://github.com/dash14/vuedoc-md.git",
     "vue-template-compiler": "^2.5.17"
   }
 }
